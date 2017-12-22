@@ -4,8 +4,30 @@
   "description": "Baseball front-end interface to view baseball results.",
   "main": "index.js",
   "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daniel Chan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "jquery": "^2.2.1",
+    "jsdom": "^8.1.0",
+    "react-addons-test-utils": "^0.14.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "lodash": "^3.10.1",
+    "react": "^0.14.9",
+    "react-dom": "^0.14.9",
+    "react-redux": "^4.4.8",
+    "react-router": "^2.8.1",
+    "redux": "^3.7.2"
+  }
 }
